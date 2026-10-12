@@ -1,0 +1,34 @@
+{
+    "name": "proesio/rutalo",
+    "description": "Rutalo - Enrutador en Español.",
+    "type": "library",
+    "keywords": [
+        "rutalo",
+        "router",
+        "routing",
+        "routes"
+    ],
+    "license": "MIT",
+    "homepage": "https://rutalo.proes.io",
+    "authors": [
+        {
+            "name": "Juan Felipe Valencia Murillo",
+            "email": "juanfe0245@gmail.com",
+            "homepage": "https://jfvalenciam.proes.io",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rutalo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         beStrictAboutTestsThatDoNotTestAnything="false"
+         bootstrap="./tests/inicializador.php"
+         colors="true"
+         processIsolation="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         displayDetailsOnTestsThatTriggerDeprecations="true"
+         displayDetailsOnPhpunitDeprecations="true"
+         displayDetailsOnTestsThatTriggerWarnings="true"
+>
+    <testsuites>
+        <testsuite name="Banco de pruebas Rutalo">
+            <directory suffix="Test.php">./tests/Pruebas</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
